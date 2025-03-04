@@ -2,7 +2,7 @@ class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         a = nums.count(pivot)
         l = []
-        r = [] 
+        r = []
         print(a)
         for i in nums:
             if i < pivot:
